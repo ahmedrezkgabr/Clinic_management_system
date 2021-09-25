@@ -62,7 +62,7 @@ u8 slots[5] = {0};	/*array of the slots						*/
 u8 choice = 0;      /*variable for the choosing					*/
 
 /*array of structs*/
-struct node patients[20] = {0};
+struct node patients[100] = {0};
 
 /*Admin mode functions*/
 void add();
